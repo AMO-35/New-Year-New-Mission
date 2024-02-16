@@ -1,0 +1,202 @@
+body {
+    font-family: "Merriweather", serif;
+}
+
+.txt-color {
+    color: #FFF;
+}
+
+.txt-color-red {
+    color: #FF0000;
+}
+
+.header {
+    background-image: url('../images/Banner\ Image.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 50px;
+    border-radius: 16px;
+}
+
+.banner {
+    text-align: center;
+    padding: 120px;
+
+}
+
+.banner-greeting {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.banner-title {
+    font-size: 72px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
+
+.section-container {
+    text-align: center;
+}
+
+.section-title {
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+.section-description {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+
+.section-description-1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.new-yr-pic {
+    width: 800px;
+}
+
+.midnight-party {
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.midnight-party-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 150px 250px 150px 200px;
+    
+}
+
+.midnight-title {
+    font-size: 60px;
+    font-weight: 900;
+}
+.midnight-description{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFFCC;
+}
+.btn-primary{
+    font-size: 20px;
+    font-weight: 700;
+    background-color: black;
+    margin-top: 30px;
+}
+.place{
+    align-items: center;
+    width: 1320px;
+    height: 600px;
+    background-color: rgba(250, 235, 215, 0.511);
+    margin-left: 90px;
+    margin-bottom: 50px;
+
+}
+
+.place-des{
+    align-items: center;
+    justify-content: center;
+    padding: 150px 250px 150px 150px;
+    color: #070211;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 600;
+
+}
+.btn-join{
+    color: white;
+    background-color: #FF0000;
+    border: 0;
+    padding:16px 32px;
+    border-radius:8px;
+}
+
+
+
+.portfolio-div{
+   margin-left: 90px;
+}
+
+.portfolio-head{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.portfolio-title{
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.portfolio-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #07021199;
+    margin-top: 10px;
+}
+.first-row{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 80px;
+    padding-bottom: 24px;
+
+}
+.pic{
+    width: 424px;
+    height: 450px;
+}
+.second-row{
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 80px; 
+}
+.pic-2{
+    width: 424px;
+    height: 450px;
+}
+
+.first-row .pic:hover {
+    filter: brightness(0.7);
+    transition: filter 0.3s ease; 
+}
+
+.second-row .pic-2:hover {
+    filter: brightness(0.7); 
+    transition: filter 0.3s ease;
+}
+.newsletter-section{
+    text-align: center;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    margin: 50px 90px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.newsletter-title{
+    font-size: 48px;
+    font-weight: 900;
+}
+.newsletter-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: #07021199;
+}
+#input-section{
+    width: 300px;
+    height: 60px; 
+}
+#submit-section{
+    width: 210px;
+    height: 60px;
+}
+
+
+
