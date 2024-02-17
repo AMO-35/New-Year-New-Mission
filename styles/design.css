@@ -73,7 +73,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 150px 250px 150px 200px;
-    
+
 }
 
 .midnight-title {
@@ -87,11 +87,15 @@ body {
     color: #FFFFFFCC;
 }
 
-.btn-primary {
+.btn-primary {                                      
     font-size: 20px;
     font-weight: 700;
-    background-color: black;
+    background-color:#FF0000 ;
     margin-top: 30px;
+    color: white;
+    border: 0;
+    padding: 16px 32px;
+    border-radius: 8px;
 }
 
 .place {
@@ -117,6 +121,8 @@ body {
 }
 
 .btn-join {
+    font-size: 20px;
+    font-weight: 700;
     color: white;
     background-color: #FF0000;
     border: 0;
@@ -124,8 +130,74 @@ body {
     border-radius: 8px;
 }
 
+/* new best offer */
+.new-best-offer {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* gap: 50px; */
+}
+.best-offer-container{
+    padding-left: 60px;
+    padding-right: 90px;
+}
+.best-offer-title {
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+.best-offer-title-1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    /* padding-top: 0px; */
+}
+.best-offer-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.60);
+    margin-top: 15px;
+}
+.year-container{
+    padding-right: 90px;
+    padding-left: 40px;
+}
+.year{
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.year-description{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.60);
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+.happy-img{
+    margin-top: 15px;
+}
+.circle img{
+    width: 250px;
+    height: 250px;
+    padding: 5px;
+
+}
+.circle {
+    width: 260px;
+    height: 260px;
+    background: transparent;
+    border-radius: 50%;
+    border: 10px solid #FF0000;
+    
+}
 
 
+
+/* portfolio */
 .portfolio-div {
     margin-left: 90px;
 }
@@ -139,7 +211,7 @@ body {
 .portfolio-title {
     font-size: 48px;
     font-weight: 900;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 0px;
 }
 
@@ -147,7 +219,8 @@ body {
     font-size: 20px;
     font-weight: 400;
     color: #07021199;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-bottom: 40px;
 }
 
 .first-row {
@@ -208,13 +281,13 @@ body {
 
 /* input and button styles */
 
-.input{
+.input {
     padding: 200px;
     justify-content: center;
     display: inline-block;
 }
-input[type="email"]
-{
+
+input[type="email"] {
 
     font-size: 20px;
     box-sizing: border-box;
@@ -228,26 +301,28 @@ input[type="email"]
 }
 
 .newsletter-form {
-    text-align: center; /* Center align the form */
+    text-align: center;
+    /* Center align the form */
     margin-top: 50px;
-  }
-  
-  .submit-button {
+}
+
+.submit-button {
     width: 150px;
     height: 55px;
     outline: none;
     box-sizing: border-box;
-    background-color: red; /* Change the color to your desired color */
+    background-color: red;
     color: white;
     border: 1px solid rgb(237, 59, 59);
     padding: 20px;
-    border-radius: 0 25px 25px 0; /* Rounded border */
+    border-radius: 0 25px 25px 0;
     cursor: pointer;
-  }
-  
-  .submit-button:hover {
-    background-color: rgb(239, 131, 198);}
- 
+}
+
+.submit-button:hover {
+    background-color: rgb(239, 131, 198);
+}
+
 
 /* footer section */
 .footer-section {
@@ -263,14 +338,17 @@ input[type="email"]
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.call-div{
+
+.call-div {
     display: flex;
     gap: 10px;
 }
-.web-div{
+
+.web-div {
     display: flex;
     gap: 3px;
 }
+
 .footer-section hr {
     border: none;
     height: 1px;
@@ -287,15 +365,18 @@ input[type="email"]
     padding-top: 30px;
     padding-bottom: 20px;
 }
-.footer-container-2{
+
+.footer-container-2 {
     display: flex;
     justify-content: space-around;
     color: #FFFFFF;
-    padding-top: 50px; 
+    padding-top: 50px;
 }
-.unsubscribe{
+
+.unsubscribe {
     padding-left: 300px;
 }
-.call-web-div{
+
+.call-web-div {
     padding-left: 200px;
 }
